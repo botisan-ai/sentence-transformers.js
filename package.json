@@ -1,0 +1,21 @@
+{
+  "name": "@botisan-ai/sentence-transformers",
+  "version": "1.0.0",
+  "description": "Run sentence-transformers compatible models in Node.js or browser.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.5.4",
+    "onnxruntime-node": "^1.15.1"
+  }
+}
