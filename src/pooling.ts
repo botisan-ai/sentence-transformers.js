@@ -1,5 +1,6 @@
-import { Tensor } from '@xenova/transformers';
-import { Callable } from '@xenova/transformers/types/utils/core';
+import { Tensor } from "@xenova/transformers";
+//@ts-ignore
+import { Callable } from "@xenova/transformers/src/utils/core.js";
 
 export interface PoolingConfig {
   word_embedding_dimension: number;
@@ -19,9 +20,7 @@ export interface PoolingOutput {
 }
 
 export class Pooling extends Callable {
-  constructor(
-    private readonly config: PoolingConfig,
-  ) {
+  constructor(private readonly config: PoolingConfig) {
     super();
   }
 

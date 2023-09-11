@@ -13,6 +13,9 @@ dependencies:
     version: 1.15.1
 
 devDependencies:
+  '@types/node':
+    specifier: '18'
+    version: 18.17.14
   tsx:
     specifier: ^3.12.7
     version: 3.12.7
@@ -288,9 +291,8 @@ packages:
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
     dev: false
 
-  /@types/node@20.5.7:
-    resolution: {integrity: sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==}
-    dev: false
+  /@types/node@18.17.14:
+    resolution: {integrity: sha512-ZE/5aB73CyGqgQULkLG87N9GnyGe5TcQjv34pwS8tfBs1IkCh0ASM69mydb2znqd6v0eX+9Ytvk6oQRqu8T1Vw==}
 
   /@xenova/transformers@2.5.4:
     resolution: {integrity: sha512-hXk/8j5E5Ql4PmP7/n45zSRVjTB1iLTUvRJum8ywU/aAXg4QW2SYQqb0oCBrY7yCG8Hb/8s3C+TevHjgWEbLkw==}
@@ -591,7 +593,7 @@ packages:
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
       '@types/long': 4.0.2
-      '@types/node': 20.5.7
+      '@types/node': 18.17.14
       long: 4.0.0
     dev: false
 

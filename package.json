@@ -2,6 +2,7 @@
   "name": "@botisan-ai/sentence-transformers",
   "version": "1.0.0",
   "description": "Run sentence-transformers compatible models in Node.js or browser.",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx src/index.ts",
@@ -11,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "18",
     "tsx": "^3.12.7",
     "typescript": "^5.2.2"
   },
